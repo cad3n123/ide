@@ -1,0 +1,12 @@
+[package]
+name = "ide"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[profile.dev]
+incremental = true
+
+[build]
+rustc-wrapper = "sccache"
